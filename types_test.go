@@ -359,6 +359,18 @@ var (
 	_ Chattable = ReopenGeneralForumTopicConfig{}
 	_ Chattable = HideGeneralForumTopicConfig{}
 	_ Chattable = UnhideGeneralForumTopicConfig{}
+	_ Chattable = SetCustomEmojiStickerSetThumbnalConfig{}
+	_ Chattable = SetStickerSetTitleConfig{}
+	_ Chattable = DeleteStickerSetConfig{}
+	_ Chattable = SetStickerEmojiListConfig{}
+	_ Chattable = SetStickerKeywordsConfig{}
+	_ Chattable = SetStickerMaskPositionConfig{}
+	_ Chattable = GetMyDescriptionConfig{}
+	_ Chattable = SetMyDescriptionConfig{}
+	_ Chattable = GetMyShortDescriptionConfig{}
+	_ Chattable = SetMyShortDescriptionConfig{}
+	_ Chattable = GetMyNameConfig{}
+	_ Chattable = SetMyNameConfig{}
 )
 
 // Ensure all Fileable types are correct.
